@@ -29,7 +29,7 @@ class CardSwiper extends StatelessWidget {
                     arguments: peliculas![index]),
                 child: FadeInImage(
                   image: NetworkImage(peliculas![index].getPosterImg()),
-                  placeholder: AssetImage('assets/img/no-image.jpg'),
+                  placeholder: AssetImage('images/no-image.jpg'),
                   fit: BoxFit.cover,
                 ),
               ),

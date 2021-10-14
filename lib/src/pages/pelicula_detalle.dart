@@ -51,7 +51,7 @@ class PeliculaDetalle extends StatelessWidget {
         ),
         background: FadeInImage(
           image: NetworkImage(pelicula.getBackgroundImg()),
-          placeholder: AssetImage('assets/img/loading.gif'),
+          placeholder: AssetImage('images/loading.gif'),
           fadeInDuration: Duration(milliseconds: 150),
           fit: BoxFit.cover,
         ),
@@ -153,7 +153,7 @@ class PeliculaDetalle extends StatelessWidget {
             borderRadius: BorderRadius.circular(20.0),
             child: FadeInImage(
               image: NetworkImage(actor.getFoto()),
-              placeholder: AssetImage('assets/img/no-image.jpg'),
+              placeholder: AssetImage('images/no-image.jpg'),
               height: 150.0,
               fit: BoxFit.cover,
             ),
