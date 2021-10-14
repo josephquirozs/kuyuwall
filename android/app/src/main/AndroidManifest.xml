@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kuyuwall">
    <application
-        android:label="kuyuwall"
+        android:label="Kuyuwall"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
