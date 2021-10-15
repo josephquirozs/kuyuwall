@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kuyuwall">
+    package="com.josephquiroz.kuyuwall">
    <application
         android:label="Kuyuwall"
         android:icon="@mipmap/launcher_icon">
